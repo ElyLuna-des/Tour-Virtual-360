@@ -282,32 +282,21 @@
         text-align: center;
       }
     
-      header .logos img {
-        height: 80px; /* Ajusta el tamaño de los logos */
-        justify-content: center;
+       header .logo-left img {
+        height: 80px; /* Ajuste específico para el logo izquierdo */
       }
-    
-      header .instituto-logo {
-        height: 100px;
-        padding-left: 0; /* Elimina el padding para centrar el logo */
-        justify-content: center;
       
-      }
-    
-      header .software-logo {
-        height: 120px;
-        padding-right: 0; /* Elimina el padding para centrar el logo */
-        
+      header .logo-right img {
+        height: 100px; /* Ajuste específico para el logo derecho */
       }
     
       header .title {
         position: static; /* Elimina la posición absoluta */
         transform: none; /* Quita la transformación */
         margin: 10px 0; /* Agrega margen para separación */
+        font-size: 20px;
       }
-      header h1 {
-        font-size: 30px; /* Reduce el tamaño del texto en pantallas pequeñas */
-      }
+
 
       .footer-content {
         flex-direction: column;
